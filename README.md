@@ -2,11 +2,11 @@
 
 gcloud config set project {project-id}
 
-## create venv and activate
+create venv and activate
 
 pip install requirements.txt
 
-## ajustar arquivo .env && .def
+ajustar arquivo .env && .def
 
 python up_services.py
 python generate_and_publish_msgs.py
